@@ -7,19 +7,13 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 function search(obj, key) {
   // console.log(obj);
-  // debugger;
-
   if(obj && obj.name == key){
     console.log(obj)
     return obj;
   }else{
     if(obj && obj.children){
       let f = obj.children;      
-      f.filter(child => {
-        return child.name == key;
-      });
       f.forEach( child => search(child, key));
-      // console.log(f);
     }
   }
   return;
@@ -50,4 +44,4 @@ var obj = {
   ]
 };
 
-search(obj, "A-A");
+search(obj, "A-A-B");
