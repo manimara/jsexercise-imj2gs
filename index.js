@@ -1,6 +1,7 @@
 // Import stylesheets
 import "./style.css";
-import "./e2.js";
+//import "./e2.js";
+import "./e3.js";
 // Write Javascript code!
 const appDiv = document.getElementById("app");
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
