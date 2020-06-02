@@ -2,5 +2,28 @@
   "name": "js-ydbjdp",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsexercise-imj2gs)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manimara/jsexercise-imj2gs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manimara/jsexercise-imj2gs/issues"
+  },
+  "homepage": "https://github.com/manimara/jsexercise-imj2gs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "jest": "^26.0.1"
+  }
 }
