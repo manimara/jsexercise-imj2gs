@@ -14,16 +14,8 @@ function compareArray(a1, a2) {
     a2.sort();
 
     for(let i=0; i< len; i++){
-        let innerLength = a1[i].length;
-        if (a1[i].length != a2[i].length)
+        if(!(a1[i].toString() == a2[i].toString()))
             return false;
-        
-        for(let j=0; j< innerLength; j++){
-            if(a1[i][j] != a2[i][j]){
-                console.log(a1[i][j], a2[i][j], i, j);
-                return false;
-            }
-        }
     }
 
 
