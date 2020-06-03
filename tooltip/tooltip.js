@@ -2,7 +2,7 @@ class ToolTip extends HTMLElement {
     constructor(){
         super();
         console.log(`I am Web component`);
-        this.attachShadow({mode:"open"});
+        // this.attachShadow({mode:"open"});
     }
 
     connectedCallback(){
@@ -10,7 +10,7 @@ class ToolTip extends HTMLElement {
         tooltipIcon.textContent = " (?) ";
         tooltipIcon.addEventListener('mouseenter', this._showTooltip);
         tooltipIcon.addEventListener('mouseleave', this._hideTooltip);
-        this.shadowRoot.appendChild(tooltipIcon);
+        this.appendChild(tooltipIcon);
         
     }
     _showTooltip(){
