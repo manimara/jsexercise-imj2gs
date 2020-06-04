@@ -2,7 +2,6 @@ class ToolTip extends HTMLElement {
     constructor(){
         super();
         console.log(`I am Web component`);
-        // this.attachShadow({mode:"open"});
     }
 
     connectedCallback(){
