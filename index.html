@@ -1,1 +1,17 @@
-<div id="app"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="e4.js"></script> -->
+    <script src="async.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <form>
+        number : <input type="text" name="num" onchange="onLoad(num.value)"  value="2"/>
+    </form>
+    <button onclick="asyncLoad()">Async</button>
+</body>
+</html>
