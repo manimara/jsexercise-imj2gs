@@ -10,8 +10,8 @@ function formatStringWithNumber(stringText) {
     } else {
       output += `${count}${prev}`;
       count = 1;
+      prev = current;
     }
-    prev = current;
   }
   return output;
 }
