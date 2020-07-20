@@ -18,3 +18,11 @@ myValue = {
     fullname : "manimaran"
 }
 console.log(test.call(obj.prop1));//
+
+
+var gold = {a:1}
+var silver = {};
+
+silver = Object.create({}, gold)
+
+console.log(silver);
