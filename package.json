@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {},
-  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/jsexercise-imj2gs)",
+  "description": "This is the application, which contains exercise or learning the javascript, data structures, algorithms and other tehonologies. Normally code have grouped by folder.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
